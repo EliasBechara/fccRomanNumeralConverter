@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c5c5c5;
+}
+
+h1 {
+    font-family: "Gideon Roman", serif;
+    font-weight: 700;
+    margin-top: -150px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    gap: 1em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+#convert-btn {
+    font-family: "Gideon Roman", serif;
+    background-color: #28a745;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#convert-btn:hover {
+    background-color: #218838;
+}
+
+
+.convert-btn:active {
+    background-color: #1e7e34;
+}
+
+#number {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#result {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFFDD0; 
+    font-weight: 400;
+    font-family: "Gideon Roman", serif;
+  }
+
+#output {
+    font-family: "Gideon Roman", serif;
+    font-size: 18px;
+    font-weight: 400;
+}
